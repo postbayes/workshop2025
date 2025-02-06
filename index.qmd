@@ -1,0 +1,186 @@
+---
+title: "Advances in post-Bayesian methods"
+subtitle: "1st Workshop 15--16 May 2025, London, UK"
+image: post-bayes.jpg
+---
+
+```{r}
+#| echo: false
+#| include: false
+library(tidyverse)
+library(gt)
+```
+
+# Welcome!
+
+Bayesian inference has become a popular framework for decision-making given its consistent and flexible handling of uncertainty. In this regime, however, the statistician is subject to several surprisingly strong assumptions, which are violated in almost all modern machine learning settings. This is in fact well-understood, and has led to a range of methods which aim to retain characteristics of Bayesian uncertainty quantification without the restrictive assumptions that underpin it. Collectively, this body of work is sometimes referred to as “generalised Bayes”. This name, however, does not capture the main appeal of these conceptual frameworks: by unapologetically endorsing posteriors that lie outside the confines of Bayesian epistemology, they are intrinsically post-Bayesian. This is not a minor difference in semantics, but a major shift in outlook.
+
+The first workshop on Advances in post-Bayesian methods aims to bring together the currently disparate subfields, stretching from PAC Bayes, generalised Bayes, predictive resampling, and Martingale posteriors, to online learning and beyond.
+With each subfield growing faster now than ever before, it is imperative that we bring them together to form a unified post-Bayesian front.
+And given the growing public interest in probabilistic AI, aligning the direction of our field is of especially critical importance.
+Over the course of two days, we will host eight invited talks from leaders across the post-Bayesian landscape, eight contributed talks, and a poster session to ignite discussion and innovation in our growing community, and will compliment the [post-Bayesian seminar series](https://postbayes.github.io/seminar/).
+
+## Location
+
+All of the sessions will be held in the [Denys Holland Lecture Theatre](https://www.ucl.ac.uk/maps/denys-holland) in Bentham House at UCL.
+The nearest tube stations are Euston, Warren Street, King's Cross, and Russell Square. 
+
+[Google Maps](https://maps.app.goo.gl/FYBDKTdoaqezrzUW6) | [what3words](https://what3words.com/cherry.trying.motion)
+
+## Registration
+
+The registration fee is **10.00 GBP**, and includes access to all presentations over two days, catered lunch and coffee breaks, and the poster session.
+
+> To register, please follow [this link]().
+
+## Key dates
+
+```{r}
+#| echo: false
+data <- 
+  tibble(
+    date = c("2025-03-17",
+             "2025-04-11",
+             "2025-04-18",
+             "2025-05-02",
+             "2025-05-15"),
+    event = c("Submissions open",
+              "Submissions close",
+              "Decisions announced",
+              "Registration closes",
+              "Workshop begins")
+  ) 
+
+# make table
+data |> 
+  gt() |>
+  fmt_date(col = "date",
+           date_style = "wd_m_day_year") |>
+  cols_align(align = "left") |>
+  tab_options(column_labels.hidden = TRUE) |>
+  # strike through events in the past
+  tab_style(
+    style = cell_text(decorate = "line-through"),
+    locations = cells_body(
+      columns = event,
+      rows = date <= Sys.Date()
+    )
+  )
+```
+
+# Programme 
+
+::: {.callout-note}
+## For speakers
+Please bring your slides to your session on a USB stick, or email them to `postbayesml [at] gmail [dot] com` ahead of time.
+:::
+
+::: {.callout-note}
+## For poster presentations
+We can accommodate posters of either A0 portait or A1 landscape size.
+:::
+
+```{r}
+#| echo: false
+# programme table
+prog_df <- tribble(
+  ~day, ~time, ~session, ~session_type, ~speaker, ~title, ~links, ~location,
+  1, "09:00-10:00", "Coffee", "refreshments", NA, NA, NA, "Downstairs",
+  1, "10:00-10:45", "Simulation-based inference", "invited", "Speaker 1", "This title name is purposefully long and difficult to understand", "https://arxiv.org/abs/0000.0000", "Room X",
+  1, "10:45-11:30", "Modern prior choice", "invited", "Speaker 2", "Title 2", "https://arxiv.org/abs/0000.0000", "Room X",
+  1, "11:30-12:15", "Modern prior choice", "invited", "Speaker 3", "Title 3", "https://arxiv.org/abs/0000.0000", "Room X",
+  1, "11:30-13:00", "Distance-based methods", "contributed", "Speaker 4", "Title 4", "https://arxiv.org/abs/0000.0000", "Room X",
+  1, "11:30-13:00", "Distance-based methods", "contributed", "Speaker 5", "Title 5", "https://arxiv.org/abs/0000.0000", "Room X",
+  1, "13:00-14:30", "Lunch", "refreshments", NA, NA, NA, "Some other room",
+  1, "13:00-14:30", "Dinner", "refreshments", NA, NA, NA, "A very East London restaurant",
+  2, "09:00-10:00", "Coffee", "refreshments", NA, NA, NA, "Downstairs",
+)
+```
+
+## Day 1
+
+TBD.
+
+```{r}
+#| echo: false
+#| include: false
+# make the programme table for day 1
+prog_df |> 
+  dplyr::filter(day == 1) |>
+  gt(rowname_col = "time") |>
+  tab_row_group(label = "Coffee",
+                rows = session == "Coffee") |>
+  tab_row_group(label = "Lunch",
+                rows = session == "Lunch") |>
+  tab_row_group(label = "Modern prior choice",
+                 rows = session == "Modern prior choice") |>
+  tab_row_group(label = "Distance-based methods",
+                 rows = session == "Distance-based methods") |>
+  row_group_order(groups = c("Coffee", "Modern prior choice",
+                              "Lunch", "Distance-based methods")) |>
+  cols_hide(columns = c("day", "session_type", "session", "location")) |>
+  fmt_url(
+    columns = links,
+    label = fontawesome::fa(
+      name = "link",
+      height = "0.75em",
+      vertical_align = "0em"
+    ),
+    color = "gray65"
+  ) |>
+  cols_merge(
+     columns = c(speaker, links),
+    pattern = "{1} {2}"
+  ) |>
+  sub_missing(missing_text = "") |>
+  cols_label(
+    speaker = md("**Speaker**"),
+    title = md("**Title**"),
+    location ~ md("**Location**")
+  ) |>
+  cols_width(
+    time ~ pct(20),
+    speaker ~ pct(30),
+    everything() ~ pct(50)
+  )
+```
+
+## Day 2
+
+TBD.
+
+```{r}
+#| echo: false
+#| include: false
+# make the programme table for day 2
+prog_df |> 
+  dplyr::filter(day == 2) |>
+  gt(rowname_col = "time") |>
+  tab_row_group(label = "Coffee",
+                rows = session == "Coffee") |>
+  cols_hide(columns = c("day", "session_type", "session", "location")) |>
+   fmt_url(
+    columns = links,
+    label = fontawesome::fa(
+      name = "link",
+      height = "0.75em",
+      vertical_align = "0em"
+     ),
+    color = "gray65"
+  ) |>
+  cols_merge(
+     columns = c(speaker, links),
+    pattern = "{1} {2}"
+  ) |>
+   sub_missing(missing_text = "") |>
+   cols_label(
+     speaker = md("**Speaker**"),
+    title = md("**Title**")
+  )
+```
+
+# Organisers
+
+- [Dr. Jeremias Knoblauch](https://jeremiasknoblauch.github.io/) (UCL)
+- [Yann McLatchie](https://yannmclatchie.github.io/) (UCL)
+- [Matías Altamirano](https://maltamiranomontero.github.io/) (UCL)
