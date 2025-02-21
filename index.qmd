@@ -31,7 +31,7 @@ The nearest tube stations are Euston, Warren Street, King's Cross, and Russell S
 
 The registration fee is **10.00 GBP**, and includes access to all presentations over two days, catered lunch and coffee breaks, and the poster session.
 
-> To register, please follow [this link]().
+> To register, please follow [this link](https://onlinestore.ucl.ac.uk/conferences-and-events/faculty-of-mathematical-physical-sciences-c06/department-of-statistical-science-f61/f61-first-workshop-on-the-advances-in-post-bayesian-methods).
 
 ## Key dates
 
@@ -39,7 +39,7 @@ The registration fee is **10.00 GBP**, and includes access to all presentations 
 #| echo: false
 data <- 
   tibble(
-    date = c("2025-03-17",
+    date = c("2025-02-24",
              "2025-04-11",
              "2025-04-18",
              "2025-05-02",
@@ -49,7 +49,7 @@ data <-
               "Decisions announced",
               "Registration closes",
               "Workshop begins")
-  ) 
+  )
 
 # make table
 data |> 
@@ -68,6 +68,13 @@ data |>
   )
 ```
 
+## Submission {#sec:submission}
+
+We are currently accepting submissions of contributed talks and posters on all things post-Bayes!
+Contributed talks are 15 minutes in length, and we can accommodate posters of either A0 portait or A1 landscape size.
+
+> Please submit your contributed talk and/or poster through [this form](https://forms.gle/PUfXqfd7ZCYGXT2y9).
+
 # Programme 
 
 ::: {.callout-note}
@@ -75,10 +82,16 @@ data |>
 Please bring your slides to your session on a USB stick, or email them to `postbayesml [at] gmail [dot] com` ahead of time.
 :::
 
-::: {.callout-note}
-## For poster presentations
-We can accommodate posters of either A0 portait or A1 landscape size.
-:::
+### Confirmed speakers
+
+- [Dr. Badr-Eddine Chérief-Abdellatif](https://badreddinecheriefabdellatif.github.io/) (Sorbonne Université)
+- [Dr. Kamélia Daudel](https://kdaudel.github.io/) (ESSEC Business School)
+- [Prof. Peter Gruenwald](https://safestatistics.com/) (CWI)
+- [Prof. Benjamin Guedj](https://bguedj.github.io/) (UCL, Alan Turing Institute, INRIA)
+- [Dr. Takuo Matsubara](https://sites.google.com/view/takuomatsubara/home) (University of Edinburgh)
+- [Dr. Susan Wei](https://www.suswei.com/) (Monash University)
+
+More to be announced soon!
 
 ```{r}
 #| echo: false
@@ -96,10 +109,6 @@ prog_df <- tribble(
   2, "09:00-10:00", "Coffee", "refreshments", NA, NA, NA, "Downstairs",
 )
 ```
-
-## Day 1
-
-TBD.
 
 ```{r}
 #| echo: false
@@ -144,10 +153,6 @@ prog_df |>
     everything() ~ pct(50)
   )
 ```
-
-## Day 2
-
-TBD.
 
 ```{r}
 #| echo: false
