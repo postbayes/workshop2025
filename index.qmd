@@ -189,3 +189,9 @@ prog_df |>
 - [Dr. Jeremias Knoblauch](https://jeremiasknoblauch.github.io/) (UCL)
 - [Yann McLatchie](https://yannmclatchie.github.io/) (UCL)
 - [Matías Altamirano](https://maltamiranomontero.github.io/) (UCL)
+
+# Sponsors
+
+- [Prob_AI Hub](https://www.probai.uk/)
+- [UCL Centre for Artificial Intelligence](https://www.ucl.ac.uk/ai-centre)
+- [EPSRC](https://gtr.ukri.org/projects?ref=EP%2FW005859%2F1)
