@@ -193,5 +193,5 @@ prog_df |>
 # Sponsors
 
 - [Prob_AI Hub](https://www.probai.uk/)
-- [UCL Centre for Artificial Intelligence](https://www.ucl.ac.uk/ai-centre)
 - [EPSRC](https://gtr.ukri.org/projects?ref=EP%2FW005859%2F1)
+- [UCL Centre for Artificial Intelligence](https://www.ucl.ac.uk/ai-centre)
