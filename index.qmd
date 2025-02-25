@@ -85,6 +85,7 @@ Please bring your slides to your session on a USB stick, or email them to `postb
 ### Confirmed speakers
 
 - [Dr. Badr-Eddine Chérief-Abdellatif](https://badreddinecheriefabdellatif.github.io/) (Sorbonne Université)
+- [Dr. Diana Cai](https://www.dianacai.com/) (Flatiron Institute)
 - [Dr. Kamélia Daudel](https://kdaudel.github.io/) (ESSEC Business School)
 - [Prof. Peter Gruenwald](https://safestatistics.com/) (CWI)
 - [Prof. Benjamin Guedj](https://bguedj.github.io/) (UCL, Alan Turing Institute, INRIA)
