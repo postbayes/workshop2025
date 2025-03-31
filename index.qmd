@@ -106,3 +106,4 @@ More to be announced soon!
 - [Prob_AI Hub](https://www.probai.uk/)
 - [EPSRC](https://gtr.ukri.org/projects?ref=EP%2FW005859%2F1)
 - [Foundational Artificial Intelligence CDT](https://www.ucl.ac.uk/foundational-ai-cdt/)
+- [The Royal Statistical Society](https://rss.org.uk/)
