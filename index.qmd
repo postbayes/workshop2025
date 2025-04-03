@@ -103,12 +103,14 @@ More to be announced soon!
 
 # Sponsors
 
-::: {layout="[[40,20,20,20]]"}
-![](static/prob_ai.svg)
+::: {layout-ncol=1 layout-align="left" layout-valign="bottom"}
+![[Prob_AI Hub](https://www.probai.uk/)](static/prob_ai.svg){height=1in fig-align="left"}
 
-![](static/ukri-epsrc.png)
+![[EPSRC](https://gtr.ukri.org/projects?ref=EP%2FW005859%2F1)](static/ukri-epsrc.png){height=1in fig-align="left"}
 
-![](static/ellis.png)
+![[ELLIS](https://ellis.eu/)](static/ellis.png){height=1in fig-align="left"}
 
-![](static/rss.svg)
+![[The Royal Statistical Society](https://rss.org.uk/)](static/rss.svg){height=1in fig-align="left"}
+
+![[UKRI Foundational Artificial Intelligence CDT](https://www.ucl.ac.uk/foundational-ai-cdt/)](static/ukri.png){height=1in fig-align="left"}
 :::
