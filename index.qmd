@@ -108,7 +108,7 @@ More to be announced soon!
 
 ![[EPSRC](https://gtr.ukri.org/projects?ref=EP%2FW005859%2F1)](static/ukri-epsrc.png){height=1in fig-align="left"}
 
-![[ELLIS](https://ellis.eu/)](static/ellis.png){height=1in fig-align="left"}
+![[ELLIS](https://ellis.eu/)](static/ellis-london.png){height=1in fig-align="left"}
 
 ![[The Royal Statistical Society](https://rss.org.uk/)](static/rss.svg){height=1in fig-align="left"}
 
