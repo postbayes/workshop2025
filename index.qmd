@@ -86,9 +86,9 @@ A complete hourly schedule of the workshop is available at [this link](static/sc
 :::
 -->
 
-### Keynote speakers
+All presenters are listed in alphabetical order.
 
-Below are the confirmed keynote speakers (in alphabetical order).
+### Keynote speakers
 
 [Dr. Badr-Eddine Chérief-Abdellatif](https://badreddinecheriefabdellatif.github.io/) (Sorbonne Université) \
 **On the Asymptotics of Importance Weighted Variational Inference** ([abstract](abstracts/badr.qmd))
@@ -122,9 +122,6 @@ Below are the confirmed keynote speakers (in alphabetical order).
 Please bring your slides to your session on a USB stick, or email them to `postbayesml [at] gmail [dot] com` ahead of time.
 :::
 -->
-
-Below are the confirmed contributed talks (in alphabetical order). 
-These are talks which have been accepted by the scientific committee, and for which speakers have confirmed their attendance.
 
 [Dr. Sergio Bacallado](https://www.dpmms.cam.ac.uk/~sb2116/) (University of Cambridge) \
 **Generalisation bounds for predictive risk** ([abstract](abstracts/sergio.qmd))
