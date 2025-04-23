@@ -1,0 +1,11 @@
+---
+title: "Learning with Importance Weighted Variational Inference"
+toc: false
+format:
+  html:
+    smooth-scroll: true
+---
+
+Several popular variational bounds involving importance weighting ideas have been proposed to generalize and improve on the Evidence Lower BOund (ELBO) in the context of maximum likelihood optimization, such as the Importance Weighted Auto-Encoder (IWAE) and the Variational Rényi (VR) bounds. The methodology to learn the parameters of interest using these bounds typically amounts to running gradient-based variational inference algorithms that incorporate the reparameterization trick. However, the way the choice of the variational bound impacts the outcome of variational inference algorithms can be unclear.
+
+In this talk, we will present and motivate the VR-IWAE bound, a novel variational bound that unifies the ELBO, IWAE and VR bounds methodologies. In particular, we will provide asymptotic analyses for the VR-IWAE bound and its reparameterized gradient estimator, which enable us to compare of the ELBO, IWAE and VR bounds methodologies. Our work advances the understanding of importance weighted variational inference methods and we will illustrate our theoretical findings empirically.

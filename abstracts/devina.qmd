@@ -1,0 +1,9 @@
+---
+title: "Challenges in Practical Bayesian Deep Learning: A Case Study in Radio Galaxy Classification"
+toc: false
+format:
+  html:
+    smooth-scroll: true
+---
+
+The radio astronomy community is rapidly adopting deep learning techniques to deal with the huge data volumes expected from the next generation of radio observatories. This requires robust models capable of propagating uncertainties into the final astrophysical analysis. In this talk I will discuss the opportunities and challenges in applying Bayesian deep learning to morphological classification of radio galaxies. I will present a benchmark of different approximate Bayesian inference methods against an HMC baseline and discuss their performance in terms of predictive accuracy, calibration of uncertainties and ability of the models to detect distribution shift. I will also discuss the cold posterior effect encountered in our variational inference models and how it persists even when the learning strategy is modified to compensate for model misspecification with a second order PAC-Bayes bound. Finally, I will show how Bayesian neural networks can be used in tandem with self-supervised learning to discover rare and scientifically interesting anomalies in large unlabelled radio surveys.

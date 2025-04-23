@@ -1,0 +1,15 @@
+---
+title: "Bayesian estimating equations"
+toc: false
+format:
+  html:
+    smooth-scroll: true
+---
+
+The frequentist theory of estimating functions allows parametric modelling based only on assumptions about the mean and variance of the data without specifying a complete probability distribution. Moreover, inference can be made robust to misspecification of the variance. These advantages are not available to Bayes full probability modelling.
+
+The theory of estimating functions includes: quasi-likelihood for GLMs; partial likelihood in survival analysis; composite likelihoods; and generalized estimating equations for longitudinal data. It would be useful to have a Bayesian analogue of these widely used methods that allows a prior distribution on the parameters.  I will show how this can be done by extending the Bayesian bootstrap.
+
+In the frequentist approach to estimating functions, the parameter estimate is obtained by solving an unbiased estimating equation. In the Bayesian interpretation, the estimating equation implicitly defines a map between two models that would otherwise appear incompatible: 1) the Bayesian bootstrap, which provides an unstructured semi-parametric model for the observed data, and 2) the estimating function, which encodes a parametric but incomplete specification of the data distribution. By considering the local geometry of this map, information from the prior distribution can be incorporated into posterior inference via importance weights on the bootstrap samples.
+
+When an unbiased estimating function is derived as the score of a loss function, the resulting posterior is invariant to changes in the learning rate. This contrasts with generalized Bayesian inference which takes an optimisation-centric view of the same problem, where the determination of an appropriate learning rate remains an open problem.

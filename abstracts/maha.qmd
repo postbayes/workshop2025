@@ -1,0 +1,9 @@
+---
+title: "Generalization Certificates for Adversarially Robust Bayesian Linear Regression"
+toc: false
+format:
+  html:
+    smooth-scroll: true
+---
+
+Adversarial robustness of machine learning models is critical to ensuring reliable performance under data perturbations. Recent progress has been on point estimators, and this paper considers distributional predictors. First, using the link between exponential families and Bregman divergences, we formulate an adversarial Bregman divergence loss as an adversarial negative log-likelihood. Using the geometric properties of Bregman divergences, we compute the adversarial perturbation for such models in closed-form. Second, under such losses, we introduce adversarially robust posteriors, by exploiting the optimization-centric view of generalized Bayesian inference. Third, we derive the first rigorous generalization certificates in the context of an adversarial extension of Bayesian linear regression by leveraging the PAC-Bayesian framework. Finally, experiments on real and synthetic datasets demonstrate the superior robustness of the derived adversarially robust posterior over Bayes posterior, and also validate our theoretical guarantees.

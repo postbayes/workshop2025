@@ -1,0 +1,9 @@
+---
+title: "On the Asymptotics of Importance Weighted Variational Inference"
+toc: false
+format:
+  html:
+    smooth-scroll: true
+---
+
+For complex latent variable models, the likelihood function is not available in closed form. In this context, a popular method to perform parameter estimation is Importance Weighted Variational Inference. It essentially maximizes the expectation of the logarithm of an importance sampling estimate of the likelihood with respect to both the latent variable model parameters and the importance distribution parameters, the expectation being itself with respect to the importance samples. Despite its great empirical success in machine learning, a theoretical analysis of the limit properties of the resulting estimates is still lacking. In this talk, we will study the consistency of IWVI when both the Monte Carlo and the observed data sample sizes go to infinity simultaneously. We also discuss normality and efficiency under additional conditions relating the rate of growth between the Monte Carlo and the observed data samples sizes. We distinguish several regimes related to the smoothness of the importance ratio.

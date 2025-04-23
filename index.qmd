@@ -68,38 +68,137 @@ data |>
   )
 ```
 
+<!--
 ## Submission {#sec:submission}
 
 We are currently accepting submissions of contributed talks and posters on all things post-Bayes!
 Contributed talks are 15 minutes in length, and we can accommodate posters of either A0 portait or A1 landscape size.
 
 > Please submit your contributed talk and/or poster through [this form](https://forms.gle/PUfXqfd7ZCYGXT2y9).
+-->
 
 # Programme 
 
+<!--
+::: {.callout-note}
+## Complete schedule
+A complete hourly schedule of the workshop is available at [this link](static/schedule.pdf).
+:::
+-->
+
+### Keynote speakers
+
+Below are the confirmed keynote speakers (in alphabetical order).
+
+[Dr. Badr-Eddine Chérief-Abdellatif](https://badreddinecheriefabdellatif.github.io/) (Sorbonne Université) \
+**On the Asymptotics of Importance Weighted Variational Inference** ([abstract](abstracts/badr.qmd))
+
+[Dr. Diana Cai](https://www.dianacai.com/) (Flatiron Institute) \
+**Batch and match: score-based approaches for black-box variational inference** ([abstract](abstracts/diana.qmd))
+
+[Dr. Kamélia Daudel](https://kdaudel.github.io/) (ESSEC Business School) \
+**Learning with Importance Weighted Variational Inference** ([abstract](abstracts/kamelia.qmd))
+
+[Prof. Peter Gruenwald](https://safestatistics.com/) (CWI) \
+**E-Posteriors, Tempered Posteriors, Test Supermartingales** ([abstract](abstracts/peter.qmd))
+
+[Prof. Benjamin Guedj](https://bguedj.github.io/) (UCL, Alan Turing Institute, INRIA) \
+**TBD**
+
+[Dr. Takuo Matsubara](https://sites.google.com/view/takuomatsubara/home) (University of Edinburgh) \
+**TBD**
+
+[Prof. Sonia Petrone](https://dec.unibocconi.eu/people/sonia-petrone) (Bocconi University) \
+**TBD**
+
+[Dr. Susan Wei](https://www.suswei.com/) (Monash University) \
+**TBD**
+
+### Contributed talks
+
+<!--
 ::: {.callout-note}
 ## For speakers
 Please bring your slides to your session on a USB stick, or email them to `postbayesml [at] gmail [dot] com` ahead of time.
 :::
+-->
 
-### Confirmed speakers
+Below are the confirmed contributed talks (in alphabetical order). 
+These are talks which have been accepted by the scientific committee, and for which speakers have confirmed their attendance.
 
-- [Dr. Badr-Eddine Chérief-Abdellatif](https://badreddinecheriefabdellatif.github.io/) (Sorbonne Université)
-- [Dr. Diana Cai](https://www.dianacai.com/) (Flatiron Institute)
-- [Dr. Kamélia Daudel](https://kdaudel.github.io/) (ESSEC Business School)
-- [Prof. Peter Gruenwald](https://safestatistics.com/) (CWI)
-- [Prof. Benjamin Guedj](https://bguedj.github.io/) (UCL, Alan Turing Institute, INRIA)
-- [Dr. Takuo Matsubara](https://sites.google.com/view/takuomatsubara/home) (University of Edinburgh)
-- [Prof. Sonia Petrone](https://dec.unibocconi.eu/people/sonia-petrone) (Bocconi University)
-- [Dr. Susan Wei](https://www.suswei.com/) (Monash University)
+[Dr. Sergio Bacallado](https://www.dpmms.cam.ac.uk/~sb2116/) (University of Cambridge) \
+**Generalisation bounds for predictive risk** ([abstract](abstracts/sergio.qmd))
 
-More to be announced soon!
+[Dr. Pier Giovanni Bissiri](https://www.unimib.it/pier-giovanni-bissiri) (University of Milano-Bicocca) \
+**A new look at fiducial inference** ([abstract](abstracts/pier.qmd))
+
+[Prof. François Caron](https://www.stats.ox.ac.uk/~caron/) (University of Oxford) \
+**Confidence with a Robust Bayesian Touch** ([abstract](abstracts/francois.qmd))
+
+[Ioar Casado-Telletxea](https://scholar.google.com/citations?user=NBTdoV8AAAAJ&hl=en) (Basque Center for Applied Mathematics) \
+**A PAC-Bayesian Perspective on Marginal Likelihood and Generalization** ([abstract](abstracts/ioar.qmd))
+
+[Dr. Lorenzo Cappello](https://lorenzocapp.github.io/) (Universitat Pompeu Fabra) \
+**New (and old) predictive schemes with "a.c.i.d." sequences** ([abstract](abstracts/lorenzo.qmd))
+
+[Prof. Imma Curato](https://www.tu-chemnitz.de/mathematik/statistik/) (TU Chemnitz) \
+**Mixed moving average field guided learning for spatio-temporal data** ([abstract](abstracts/imma.qmd))
+
+[Dr. Harita Dellaporta](https://haritadell.github.io/) (UCL) \
+**Decision Making under Model Misspecification: DRO with Robust Bayesian Ambiguity Sets** ([abstract](abstracts/harita.qmd))
+
+[Valentin Kilian](https://valentinkil.github.io/) (University of Oxford) \
+**Confidence sequences with informative, bounded-influence priors** ([abstract](abstracts/valentin.qmd))
+
+[Kai Lehman](https://www.physik.lmu.de/physcos/en/group-members/contact-page/kai-lehman-1325a75b.html) (LMU) \
+**Post-Bayesian Inference for Misspecified Cosmological Models** ([abstract](abstracts/kai.qmd))
+
+[Dr. Yingzhen Li](http://yingzhenli.net/home/en/) (Imperial) \
+**Variational uncertainty decomposition for LLM in-context learning** ([abstract](abstracts/yingzhen.qmd))
+
+[Devina Mohan](https://devinamhn.github.io/) (University of Manchester) \
+**Challenges in Practical Bayesian Deep Learning: A Case Study in Radio Galaxy Classification** ([abstract](abstracts/devina.qmd))
+
+[Dr. Sam Power](https://sites.google.com/view/sp-monte-carlo) (Bristol University) \
+**Gradient Flows for Statistical Computation - Trends and Trajectories** ([abstract](abstracts/sam.qmd))
+
+[Prof. Martyn Plummer](https://warwick.ac.uk/fac/sci/statistics/staff/academic-research/plummer/) (Warwick University) \
+**Bayesian estimating equations** ([abstract](abstracts/martyn.qmd))
+
+[Ruchira Ray](https://warwick.ac.uk/fac/sci/statistics/staff/academic-research/plummer/) (Columbia University) \
+**Statistical guarantees for data-driven posterior tempering** ([abstract](abstracts/ruchira.qmd))
+
+[Mahalakshmi Sabanayagam](https://mahalakshmi-sabanayagam.github.io/) (Technical University of Munich) \
+**Generalization Certificates for Adversarially Robust Bayesian Linear Regression** ([abstract](abstracts/maha.qmd))
+
+[Alisa Sheinkman](https://sheinkmana.github.io/) (University of Edinburgh) \
+**Variational bow tie neural networks with shrinkage** ([abstract](abstracts/alisa.qmd))
+
+Dr. Zheyang Shen (Newcastle University) \
+**Prediction-Centric Uncertainty Quantification via MMD** ([abstract](abstracts/zheyang.qmd))
+
+[Dr. Yuli Slavutsky](https://yulisl.github.io/) (Columbia University) \
+**Quantifying Uncertainty in the Presence of Distribution Shifts** ([abstract](abstracts/yuli.qmd))
+
+### Posters
+
+::: {.callout-note}
+## For poster presentations
+We can accomodate either A0 portrait or A1 landscape posters.
+:::
+
+<!--
+Below are the confirmed poster presentations (in alphabetical order). 
+These are posters which have been accepted by the scientific committee, and for which speakers have confirmed their attendance.
+-->
+
+Coming soon!
 
 # Organisers
 
-- [Dr. Jeremias Knoblauch](https://jeremiasknoblauch.github.io/) (UCL)
-- [Yann McLatchie](https://yannmclatchie.github.io/) (UCL)
-- [Matías Altamirano](https://maltamiranomontero.github.io/) (UCL)
+[Dr. Jeremias Knoblauch](https://jeremiasknoblauch.github.io/) (UCL) <br />
+[Yann McLatchie](https://yannmclatchie.github.io/) (UCL) <br />
+[Matías Altamirano](https://maltamiranomontero.github.io/) (UCL)
 
 # Sponsors
 

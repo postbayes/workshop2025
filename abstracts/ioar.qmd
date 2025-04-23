@@ -1,0 +1,10 @@
+---
+title: "A PAC-Bayesian Perspective on Marginal Likelihood and Generalization"
+toc: false
+format:
+  html:
+    smooth-scroll: true
+---
+
+Marginal likelihood (ML) is a cornerstone of Bayesian inference, encapsulating the principle of Occam’s razor: simpler models should be favored when empirical evidence is equivalent. Driven by this philosophy and enabled by computational advances, ML is used for critical tasks such as Bayesian hypothesis testing, hyper-parameter optimization, and model selection.
+However, recent empirical studies have challenged the reliability of ML for hyper-parameter learning and model selection, revealing important instances where ML exhibits a negative correlation with generalization performance due its sensitivity to the choice of prior. In this work, we investigate the relationship between ML and generalization through the lens of state-of-the-art PAC-Bayesian bounds. Our analysis demonstrates that while ML remains a critical component, generalization in Bayesian models depends on additional factors beyond marginal likelihood alone. We validate this conclusion with experiments spanning synthetic and real-world datasets, employing both exact and approximate Bayesian posteriors.

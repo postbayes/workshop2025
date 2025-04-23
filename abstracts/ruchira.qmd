@@ -1,0 +1,9 @@
+---
+title: "Statistical guarantees for data-driven posterior tempering"
+toc: false
+format:
+  html:
+    smooth-scroll: true
+---
+
+Posterior tempering reduces the influence of the likelihood in the Bayesian posterior by raising the likelihood to a constant fractional power. The resulting posterior — also known as a power posterior — has been shown to exhibit appealing properties, including robustness to model misspecification and asymptotic normality (Bernstein-von Mises). However, practical recommendations for selecting the power and statistical guarantees for the resulting power posterior remain open questions. We engage with these issues by connecting posterior tempering to penalized estimation. Cross-validation-based approaches to tuning the power parameter in these settings suggest a novel asymptotic regime where the distribution of the selected power is a mixture with a point mass at infinity and the remaining mass converging to 0. We formalize the limiting distribution of the power posterior in this new regime. Furthermore, in the regime where the power converges to 0, we provide sufficient conditions for (i) asymptotic normality of the power posterior, (ii) consistency of the power posterior moments, and (iii) "root(n)" consistency of the power posterior mean. Our results allow for the power to depend on the data in an arbitrary way.

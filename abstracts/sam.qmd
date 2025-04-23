@@ -1,0 +1,9 @@
+---
+title: "Gradient Flows for Statistical Computation - Trends and Trajectories"
+toc: false
+format:
+  html:
+    smooth-scroll: true
+---
+
+When conducting statistical estimation and inference, it is relatively commonplace that the computational burden takes the form of an optimisation task. This has long been recognised for tasks of parameter estimation, though there is an increasing recognition that other tasks of interest can be fruitfully interpreted as optimisation tasks over a space of probability measures, or even over some hybrid space involving both parameters and measures. In this talk, I will survey some trends in this area, touching on algorithm analysis and synthesis, identification of suitable problem structures, and highlighting opportunities for future contributions in this fast-growing area.

@@ -1,0 +1,10 @@
+---
+title: "Confidence with a Robust Bayesian Touch"
+toc: false
+format:
+  html:
+    smooth-scroll: true
+---
+
+Bayes-assisted frequentist approaches enable the construction of fixed-n confidence intervals or time-uniform confidence sequences with frequentist coverage guarantees, while incorporating prior information the user may have about a parameter of interest. The key advantage of such methods is that, when the data align with the prior, they yield shorter intervals; when they do not, coverage remains valid. In this talk, I will discuss several properties of these procedures, particularly when employing “robust” priors. I will also present applications of these methods to prediction-powered inference—a framework that provides valid statistical inference when an experimental dataset is supplemented by predictions from a black-box machine learning model.
+Joint work with Stefano Cortinovis and Valentin Kilian

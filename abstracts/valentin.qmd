@@ -1,0 +1,13 @@
+---
+title: "Confidence sequences with informative, bounded-influence priors"
+toc: false
+format:
+  html:
+    smooth-scroll: true
+---
+
+Confidence sequences are sequences of confidence regions that contain the true parameter for every sample size simultaneously at a prescribed confidence level. Obtaining tight confidence sequences is of great interest, and this can be achieved by incorporating prior information. However, confidence sequences constructed with prior information can be sensitive to misspecifications and may become vacuous when the prior is poorly chosen.
+
+In this work, we focus on Gaussian observations with known variance. We show that we can improve confidence sequences for the expected value of the model by using the method of mixtures with a global prior $\pi$ centred at some location $\mu$ and with power-law or exponential tails, together with the extended Ville inequality. This allows us to construct confidence sequences that are tighter than standard ones when the prior is well-specified, while ensuring that the confidence region remains bounded even under prior misspecifications.
+
+We provide a full analysis of this result and show that several well-known prior families (Student, Cauchy, Laplace, Horseshoe, etc.) fall within our assumptions. Finally, we validate our approach through synthetic experiments, demonstrating its ability to balance tightness and robustness across different prior specifications.

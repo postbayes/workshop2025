@@ -1,0 +1,9 @@
+---
+title: "New (and old) predictive schemes with 'a.c.i.d.' sequences"
+toc: false
+format:
+  html:
+    smooth-scroll: true
+---
+
+There is a growing interest in procedures for Bayesian inference that bypass the need to specify a model and prior but simply rely on a predictive rule that describes how we learn on future observations given the available one. At the heart of the idea is a bootstrap-type scheme that allows us to move from the realm of prediction to that of inference. Which conditions the predictive rule needs to satisfy to produce valid inference is a key question. In this work, we substantially relax previous assumptions building on a generalization of martingales, opening up the possibility of employing a much wider range of predictive rules that were previously ruled out. These include "old" ideas in Statistics and Learning Theory, such as kernel estimators, and more novel ones, such as the parametric Bayesian bootstrap or copula-based algorithms. Our aim is not to advocate in favor of one predictive rule versus the other ones, but rather to showcase the benefits of working with this larger class of predictive rules. Joint work with Marco Battiston (Lancaster)

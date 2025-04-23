@@ -1,0 +1,9 @@
+---
+title: "A new look at fiducial inference"
+toc: false
+format:
+  html:
+    smooth-scroll: true
+---
+
+Since the idea of fiducial inference was put forward by Fisher, researchers have been attempting to place it within a rigorous and well motivated framework. It is fair to say that a general definition has remained elusive. In this paper we start with a representation of Bayesian posterior distributions provided by Doob that relies on martingales. This is explicit in defining how a true parameter value should depend on a random sample and hence an approach to inverse probability. Taking this as our cue, we introduce a definition of fiducial inference that extends existing ones due to Hannig. This is a joint work with Chris Holmes, University of Oxford, UK, and Stephen G. Walker, University of Texas at Austin, USA.

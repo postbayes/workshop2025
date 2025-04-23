@@ -1,0 +1,15 @@
+---
+title: "Quantifying Uncertainty in the Presence of Distribution Shifts"
+toc: false
+format:
+  html:
+    smooth-scroll: true
+---
+
+Bayesian neural networks provide a principled framework for estimating predictive uncertainty and are widely used in applications where reliable confidence estimates are critical. Like other classical Bayesian approaches, they treat model parameters as random and covariates as fixed, thereby focusing uncertainty quantification exclusively on the model parameters. However, many real-world scenarios—such as medical imaging across different hospitals or face recognition across countries—exhibit covariate shifts, where the distribution of test data differs from that of the training data.
+
+Although several distance-aware methods have been proposed to address uncertainty under covariate shift, they continue to treat covariates as fixed and rely on pre-specified distance metrics that may not accurately reflect the impact of a given distributional change on predictive uncertainty. Furthermore, such methods often overlook that neural network architectures are typically chosen arbitrarily and may not align with the true data-generating process. Consequently, when distribution shifts are expected or biases are known in the training data,  practitioners' prior beliefs about the model parameters adapt accordingly.
+
+In this work, we revisit Bayesian uncertainty estimation in the presence of covariate shift. We relax the fixed-covariate assumption by introducing a probabilistic model, which also  allows dependencies between network parameters and the data distribution. Building on this model, we develop a variational Bayesian algorithm that captures how distribution shifts influence the posterior distribution of network parameters. Our method estimates an approximate posterior without relying on predefined metrics for quantifying distributional dissimilarity. To capture the effects of shifts in the learned posterior, we construct synthetic environments exhibiting different shifts by subsampling the training data, and introduce an environment-balancing penalty inspired by techniques in out-of-distribution detection. Experiments on both synthetic and real-world datasets demonstrate that our approach significantly improves predictive uncertainty estimation under covariate shifts, outperforming existing methods.
+
+Based on joint work with David M. Blei.

@@ -1,0 +1,9 @@
+---
+title: "Post-Bayesian Inference for Misspecified Cosmological Models"
+toc: false
+format:
+  html:
+    smooth-scroll: true
+---
+
+Post-Bayesian methods provide for frameworks which are robust to misspecified models (e.g. Fong et al. 2019, Dellaporta et al. 2022). In the field of cosmology we are presented with a number of high fidelity cosmological simulations which could be used for simulation-based inference (sbi) pipelines. A major concern for this approach, however, is that synthetic observables produced in these simulations are highly dependent on simulation specifics, in particular astrophysical effects (e.g. Chisari et al. 2019). In the analysis of state-of-the-art observation campaigns such as EUCLID or DESI, which equip us with enormous statistical power, large parts of the data are therefore discarded due to these  modeling uncertainties. This is a dominating systematic in current and future observation campaigns, hindering our ability to take full advantage of the statistical power of our data. In our recent paper Lehman et al. 2024, we provided a framework to optimally extract information from cosmological simulations to perform parameter inference. In the spirit of that work, we present an application of nonparametric methods to handle possible misspecifications in this setting. We will take special care in the robustness of our methods and aim to introduce sbi as a reliable inference tool for cosmology.

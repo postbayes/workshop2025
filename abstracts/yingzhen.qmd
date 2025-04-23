@@ -1,0 +1,9 @@
+---
+title: "Variational uncertainty decomposition for LLM in-context learning"
+toc: false
+format:
+  html:
+    smooth-scroll: true
+---
+
+We aim to show how to estimate uncertainty for LLM in-context learning in an approximately Bayesian sense via prompting only. In particular we propose a variational approach to decompose the estimated uncertainty into epistemic and aleatoric uncertainty. Initial results will be shown for simple in-context regression and classification tasks.

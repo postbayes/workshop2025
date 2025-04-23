@@ -1,0 +1,9 @@
+---
+title: "Generalisation bounds for predictive risk"
+toc: false
+format:
+  html:
+    smooth-scroll: true
+---
+
+We consider procedures that estimate predictive probabilities $P_{X_n\mid X_{1:n}}$ in an exchangeable process $(X_i)$, given realisations of the process. Predictive probabilities are estimated by empirical risk minimisation using a proper scoring rule as the loss function. We derive concentration inequalities for empirical risk based on predictive localisation assumptions, and use them to obtain excess risk bounds. The results may be interpreted as generalisation bounds in a meta-learning framework, but they also shed light on the performance of algorithms for amortised Bayesian inference which use neural networks to learn the predictive distribution from simulations of a hierarchical model. In the latter case, the assumptions could be verified for particular models of interest. 

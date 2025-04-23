@@ -1,0 +1,9 @@
+---
+title: "E-Posteriors, Tempered Posteriors, Test Supermartingales"
+toc: false
+format:
+  html:
+    smooth-scroll: true
+---
+
+[E-values](https://en.wikipedia.org/wiki/E-values) provide a measure of evidence that vastly generalizes the likelihood ratio. Based on e-values, one can design an e-posterior and corresponding e-confidence sets. Like Bayesian posterior credible sets, e-confidence sets are based on priors, but unlike these, they keep their frequentist validity even if priors are wrong (misaligned with the data) - they then get wide rather than wrong. When the parameter of interest fully determines a probability distribution, e-posteriors are always wider than the Bayes credible interval based on the same prior; yet when the parameter of interest is just a feature of a distribution (e.g. its mean), the e-based confidence intervals often become substantially more informative than Bayesian ones - they allow one to put a prior only on quantities of interest, and not on the infinitely-dimensional nuisance parameter. E-value methods are generally based on nonnegative martingales, just as my older work on tempered posteriors  was - and I will end with a plea to embrace this nonasymptotic mathematical technique, which I think has so far been under-appreciated by the nascent post-Bayesian community.
