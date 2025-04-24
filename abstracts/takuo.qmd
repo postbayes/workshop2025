@@ -1,0 +1,9 @@
+---
+title: "Wasserstein Gradient Boosting: A Framework for Distribution-Valued Supervised Learning"
+toc: false
+format:
+  html:
+    smooth-scroll: true
+---
+
+Gradient boosting is a sequential ensemble method that fits a new weaker learner to pseudo residuals at each iteration. We propose Wasserstein gradient boosting, a novel extension of gradient boosting that fits a new weak learner to alternative pseudo residuals that are Wasserstein gradients of loss functionals of probability distributions assigned at each input. It solves vector-to-distribution regression, where the output values of the training dataset are probability distributions for each input. It enables a novel way of uncertainty quantification for classification and regression in machine learning. A main application of Wasserstein gradient boosting in this paper is tree-based evidential learning, which returns a distributional estimate of the response parameter for each input. We empirically demonstrate the superior performance of the probabilistic prediction by Wasserstein gradient boosting in comparison with existing uncertainty quantification methods.

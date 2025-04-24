@@ -106,7 +106,7 @@ All presenters are listed in alphabetical order.
 **TBD**
 
 [Dr. Takuo Matsubara](https://sites.google.com/view/takuomatsubara/home) (University of Edinburgh) \
-**TBD**
+**Wasserstein Gradient Boosting: A Framework for Distribution-Valued Supervised Learning** ([abstract](abstracts/takuo.qmd))
 
 [Prof. Sonia Petrone](https://dec.unibocconi.eu/people/sonia-petrone) (Bocconi University) \
 **TBD**
