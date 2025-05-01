@@ -1,0 +1,11 @@
+---
+title: "Bayesian predictive inference"
+toc: false
+format:
+  html:
+    smooth-scroll: true
+---
+
+It is a foundational principle in Bayesian Statistics that probability should be expressed on observable facts - on the observable $X_i$. In this predictive approach, one directly reasons on the learning rule that leads from past information to the prediction of future events. The predictive learning rule may implicitly use (characterize) an inferential scheme (model and prior); this is well known if it is exchangeable, by the representation theorem; which gives the foundational justification of Bayesian inference. However, having a tractable-and-exchangeable predictive rule may be difficult, especially with streaming data, and there is interest in Bayesian predictive rules that are only approximately exchangeable but still imply an inferential representation asymptotically. In the talk, I will review some known and novel “quasi-exchangeable” Bayesian predictive constructions and asymptotic approximations of the implied posterior law, also discussing properties of the learning scheme. 
+
+This is joint work with Sandra Fortini.

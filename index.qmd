@@ -109,7 +109,7 @@ All presenters are listed in alphabetical order.
 **Wasserstein Gradient Boosting: A Framework for Distribution-Valued Supervised Learning** ([abstract](abstracts/takuo.qmd))
 
 [Prof. Sonia Petrone](https://dec.unibocconi.eu/people/sonia-petrone) (Bocconi University) \
-**TBD**
+**Bayesian predictive inference** ([abstract](abstracts/sonia.qmd))
 
 [Dr. Susan Wei](https://www.suswei.com/) (Monash University) \
 **TBD**
