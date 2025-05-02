@@ -1,0 +1,13 @@
+---
+title: "What Is Prediction For? Turning Pre-Trained Transformers into Bayesian Engines"
+toc: false
+format:
+  html:
+    smooth-scroll: true
+---
+
+The Bayesian predictive approach replaces a likelihood–prior specification with a sequence of one-step ahead predictive densities. In special cases the sequence coincides—exactly or asymptotically—with the predictions of an underlying Bayesian model; more generally it defines its own distribution, as in the martingale-posterior (MGP) framework. Existing MGP engines—chiefly the bivariate-copula recursive update—hew closely to theoretical requirements but invite scepticism about their scalability to modern data settings. 
+
+Prioritising computational ease, we ask whether a black-box foundation model can act as the MGP engine. We plug TabPFN, a pretrained Transformer for tabular data, directly into the MGP framework, yielding turn-key uncertainty quantification. A single forward pass per new datapoint updates the predictive density, and the MGP construction then delivers a posterior for a target functional—no priors, tuning, or training required.
+
+Preliminary experiments are encouraging: large off-the-shelf Transformers can already function as sensible predictive rules. These findings merit deeper theoretical investigation. 

@@ -112,7 +112,7 @@ All presenters are listed in alphabetical order.
 **Bayesian predictive inference** ([abstract](abstracts/sonia.qmd))
 
 [Dr. Susan Wei](https://www.suswei.com/) (Monash University) \
-**TBD**
+**What Is Prediction For? Turning Pre-Trained Transformers into Bayesian Engines** ([abstract](abstracts/susan.qmd))
 
 ### Contributed talks
 
