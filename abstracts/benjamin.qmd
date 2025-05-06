@@ -1,0 +1,10 @@
+---
+title: "Comparing Comparators in Generalization Bounds"
+toc: false
+format:
+  html:
+    smooth-scroll: true
+---
+
+Generalization is arguably a central problem in machine learning, and two leading approaches to generalization, PAC-Bayes and information theory, have increasingly been shown to share deep structural similarities. In this work, we present a unifying framework for deriving information-theoretic and PAC-Bayesian generalization bounds based on arbitrary convex comparator functions that quantify the gap between empirical and population loss. Assuming the cumulant-generating function (CGF) of the comparator is upper-bounded by that of a known family of distributions, we show that the tightest bounds are achieved when the comparator is chosen as the convex conjugate of the bounding CGF—that is, the Cramér function. This insight not only recovers the near-optimality of classical bounds for bounded and sub-Gaussian losses but also extends to new bounds under alternative distributional assumptions.
+Joint work with Fredrik Hellström (University College London), featured at AISTATS [2024](https://proceedings.mlr.press/v238/hellstrom24a).

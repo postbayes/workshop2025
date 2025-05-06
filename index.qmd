@@ -27,11 +27,13 @@ The nearest tube stations are Euston, Warren Street, King's Cross, and Russell S
 
 [Google Maps](https://maps.app.goo.gl/FYBDKTdoaqezrzUW6) | [what3words](https://what3words.com/cherry.trying.motion)
 
+<!--
 ## Registration
 
 The registration fee is **10.00 GBP**, and includes access to all presentations over two days, catered lunch and coffee breaks, and the poster session.
 
 > To register, please follow [this link](https://onlinestore.ucl.ac.uk/conferences-and-events/faculty-of-mathematical-physical-sciences-c06/department-of-statistical-science-f61/f61-first-workshop-on-the-advances-in-post-bayesian-methods).
+-->
 
 ## Key dates
 
@@ -103,7 +105,7 @@ All presenters are listed in alphabetical order.
 **E-Posteriors, Tempered Posteriors, Test Supermartingales** ([abstract](abstracts/peter.qmd))
 
 [Prof. Benjamin Guedj](https://bguedj.github.io/) (UCL, Alan Turing Institute, INRIA) \
-**TBD**
+**Comparing Comparators in Generalization Bounds** ([abstract](abstracts/benjamin.qmd))
 
 [Dr. Takuo Matsubara](https://sites.google.com/view/takuomatsubara/home) (University of Edinburgh) \
 **Wasserstein Gradient Boosting: A Framework for Distribution-Valued Supervised Learning** ([abstract](abstracts/takuo.qmd))
@@ -188,8 +190,6 @@ We can accomodate either A0 portrait or A1 landscape posters.
 Below are the confirmed poster presentations (in alphabetical order). 
 These are posters which have been accepted by the scientific committee, and for which speakers have confirmed their attendance.
 -->
-
-Coming soon!
 
 # Organisers
 
