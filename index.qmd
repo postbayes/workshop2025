@@ -81,14 +81,21 @@ Contributed talks are 15 minutes in length, and we can accommodate posters of ei
 
 # Programme 
 
-<!--
+
 ::: {.callout-note}
 ## Complete schedule
-A complete hourly schedule of the workshop is available at [this link](static/schedule.pdf).
+The workshop schedule is available at [**this link**](static/PBW1-schedule.pdf).
 :::
--->
 
 All presenters are listed in alphabetical order.
+
+## Talks
+
+::: {.callout-note}
+## For speakers
+Please bring your slides to your session on your laptop, or email them to `postbayesml [at] gmail [dot] com` ahead of time in PDF format.
+Keynote talks are one hour in length including questions (50 + 10), contributed talks are 20 minutes in length including questions (15 + 5).
+:::
 
 ### Keynote speakers
 
@@ -117,13 +124,6 @@ All presenters are listed in alphabetical order.
 **What Is Prediction For? Turning Pre-Trained Transformers into Bayesian Engines** ([abstract](abstracts/susan.qmd))
 
 ### Contributed talks
-
-<!--
-::: {.callout-note}
-## For speakers
-Please bring your slides to your session on a USB stick, or email them to `postbayesml [at] gmail [dot] com` ahead of time.
-:::
--->
 
 [Dr. Sergio Bacallado](https://www.dpmms.cam.ac.uk/~sb2116/) (University of Cambridge) \
 **Generalisation bounds for predictive risk** ([abstract](abstracts/sergio.qmd))
@@ -179,7 +179,7 @@ Dr. Zheyang Shen (Newcastle University) \
 [Dr. Yuli Slavutsky](https://yulisl.github.io/) (Columbia University) \
 **Quantifying Uncertainty in the Presence of Distribution Shifts** ([abstract](abstracts/yuli.qmd))
 
-### Posters
+## Posters
 
 ::: {.callout-note}
 ## For poster presentations
